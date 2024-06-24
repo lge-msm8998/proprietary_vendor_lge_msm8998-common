@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter joan l01k phoenix_sprout,$(TARGET_DEVICE)),)
+ifneq ($(filter joan l01k phoenix_sprout q910,$(TARGET_DEVICE)),)
 
 endif
